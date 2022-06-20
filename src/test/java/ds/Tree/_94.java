@@ -7,6 +7,7 @@ import java.util.List;
 
 public class _94 {
     public List<Integer> inorderTraversal(TreeNode root) {
+
         List<Integer> list = new ArrayList<>();
         if (root == null) return list;
         list.add(root.val);
