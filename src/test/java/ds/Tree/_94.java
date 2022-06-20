@@ -6,8 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class _94 {
+    /** runtime: 0 ms 100.00%
+     *  memory usage: 42.2 MB 47.55%
+     *  
+     *  */
     public List<Integer> inorderTraversal(TreeNode root) {
-
         List<Integer> list = new ArrayList<>();
         if (root == null) return list;
         list.add(root.val);
